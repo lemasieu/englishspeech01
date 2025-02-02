@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chuyển đổi văn bản và phiên âm tiếng Anh</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Chuyển đổi văn bản và phiên âm tiếng Anh</h2>
+        <input type="text" id="inputText" placeholder="Nhập văn bản tiếng Anh hoặc IPA">
+        <select id="accent">
+            <option value="us">Tiếng Anh (Mỹ)</option>
+            <option value="uk">Tiếng Anh (Anh)</option>
+        </select>
+        <button onclick="convert()">Chuyển đổi</button>
+        <input type="text" id="outputText" placeholder="Kết quả" readonly>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
